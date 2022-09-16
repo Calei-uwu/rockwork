@@ -11,11 +11,11 @@
     --xl: 20px;
     --xxl: 22px;
     --xxxl: 24px;
-    --fondo-nav: #a6a6a6;
     --black: #000000;
     --white: #ffffff;
-    --form-input: #d9d9d9;
-    --font-form-color: #787878;
+    --gray1: #d9d9d9;
+    --gray2: #a6a6a6;
+    --gray3: #787878;
 }
 *
 {
@@ -27,7 +27,7 @@
 /* NAVBAR */
 .navbar
 {
-    background-color: var(--fondo-nav);
+    background-color: var(--gray2);
 
     display: flex;
     justify-content: space-between;
@@ -89,7 +89,7 @@
 
 .btn-secondary
 {
-    background-color: var(--form-input);
+    background-color: var(--gray1);
     height: 44px;
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ main .main
     justify-content: space-evenly;
 }
 
-.main .row1 h1
+h1
 {
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -153,7 +153,7 @@ main .main
 .row1 form .busqueda
 {
     width: 48%;
-    background-color: var(--form-input);
+    background-color: var(--gray1);
     border: none;
     height: 60px;
     display: flex;
@@ -183,7 +183,7 @@ form .busqueda::placeholder
     border: none;
     height: 60px;
     width: 56px;
-    background-color: var(--form-input);
+    background-color: var(--gray1);
     border-radius: 0 50% 50% 0;
     cursor: pointer;
 
@@ -216,9 +216,11 @@ form .busqueda::placeholder
     flex-wrap: wrap;
 }
 /* ATAJOS */
-.mas-buscados .m-buscados
+.pils a
 {
-    background-color: var(--form-input);
+    color: var(--black);
+    text-decoration: none;
+    background-color: var(--gray1);
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 16px;

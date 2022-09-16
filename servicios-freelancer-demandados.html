@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --light: 300;
+            --medium: 500;
+            --bold: 700;
+            --extra-bold: 800;
+            --black-bold: 900;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+            --xl: 20px;
+            --xxl: 22px;
+            --xxxl: 24px;
+            --black: #000000;
+            --white: #ffffff;
+            --gray1: #d9d9d9;
+            --gray2: #a6a6a6;
+            --gray3: #787878;
+        }
+        main
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .encabezado {
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 48px;
+        }
+
+        section {
+            border: solid 1px red;
+            display: flex;
+            align-self: center;
+            width: 1200px;
+            justify-content: space-evenly;
+            margin-top: 44px;
+
+        }
+
+        .card {
+            border: black 1px solid;
+            width: 240px;
+            height: 360px;
+            position: relative;
+            border-radius: 16px;
+        }
+
+        .overlay
+        {
+            font-family: 'Poppins', sans-serif;
+            font-size: var(--xl);
+            width: 144px;
+            background-color: var(--black);
+            color: var(--white);
+            margin: 4px auto;      
+            text-align: center;
+            border-radius: 16px;
+        
+        }
+        
+        .overlay p
+        {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 class="encabezado">Servicios freelancer demandados</h1>
+
+        <section>
+            <div class="card">
+                <img src="" alt="">
+                <div class="overlay">
+                    <p>Mezcla y Mastering</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <div class="overlay">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <div class="overlay">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <div class="overlay">
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
