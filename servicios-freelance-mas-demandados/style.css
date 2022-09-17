@@ -49,13 +49,36 @@ section {
     z-index: 1;
     border-radius: 30px;
     border: none;
+    background-color: var(--gray1);
 }
+
+.btn:active
+{
+    background-color: var(--gray3);
+}
+.btn:hover
+{
+    cursor: pointer;
+}
+
+.btn img
+{
+    padding-left: 8px;
+    width: 80%;
+    height: 70%;
+}
+
 
 .btn-l
 {
     left: 10px;
 
 }
+.btn-l img
+{
+    transform: scaleX(-1);
+}
+
 .btn-r
 {
     right: 10px;

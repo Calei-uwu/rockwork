@@ -1,0 +1,89 @@
+:root {
+    --light: 300;
+    --medium: 500;
+    --bold: 700;
+    --extra-bold: 800;
+    --black-bold: 900;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --xl: 20px;
+    --xxl: 22px;
+    --xxxl: 24px;
+    --black: #000000;
+    --white: #ffffff;
+    --gray1: #d9d9d9;
+    --gray2: #a6a6a6;
+    --gray3: #787878;
+    --gray4: #727372;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: var(--black);
+    display: flex;
+    justify-content: center;
+}
+.main
+{
+    background-color: var(--gray4);
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main section
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h1
+{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    font-weight: var(--extra-bold);
+}
+
+section h2
+{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    font-weight: var(--medium);
+}
+
+.main .footer
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer
+{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--xxl);
+    align-items: center;
+}
+
+.makeStore
+{
+    background-color: var(--white);
+    width: 100px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: var(--bold );
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: var(--lg);
+}
