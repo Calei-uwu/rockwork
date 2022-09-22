@@ -120,10 +120,10 @@ main .main
 {
     text-align: center;
     display: flex;
-    height: 100vh;
+    height: 90vh;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 72px;
+    padding-top: 72px;
 
 }
 /* COLUMNA 1 */
@@ -235,11 +235,10 @@ form .busqueda::placeholder
     display: flex;
     width: 100vw;
     height: 100vh;
-
     position: fixed;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
-    /* display: none; */
+    display: none;
 }
 
 .modal
@@ -296,21 +295,24 @@ form .busqueda::placeholder
     color: var(--white);
     font-size: var(--xxxl);
     font-weight: var(--bold);
+    cursor: pointer;
 }
 
-.modal #close
+.modal #closes
 {
     width: 95%;
     display: flex;
     justify-content: end;
 }
 
-.modal .close
+.modal #close
 {
     margin-top: 8px;
     width: 32px;
     height: 32px;
+
 }
+
 
 .modal button:active
 {
