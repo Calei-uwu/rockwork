@@ -55,7 +55,7 @@
 
 .nav-link
 {
-    width: 50vw;
+    width: 50%;
     display: flex;
 }
 
@@ -233,8 +233,8 @@ form .busqueda::placeholder
 #modal
 {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
@@ -318,3 +318,138 @@ form .busqueda::placeholder
 {
     background-color: var(--gray3);
 }
+.sec {
+    /* border: solid 1px red; */
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 44px;
+    position: relative;
+    align-items: center;
+    z-index: 0;
+}
+
+.btn
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--gray2);
+}
+
+.btn:active
+{
+    background-color: var(--gray3);
+}
+.btn:hover
+{
+    cursor: pointer;
+}
+
+.btn img
+{
+    padding-left: 8px;
+    width: 80%;
+    height: 70%;
+}
+
+
+.btn-l
+{
+    left: 10px;
+
+}
+.btn-l img
+{
+    transform: scaleX(-1);
+}
+
+.btn-r
+{
+    right: 10px;
+}
+
+.card {
+    /* border: black 1px solid; */
+    width: 240px;
+    height: 360px;
+    position: relative;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    filter: grayscale(90%);
+}
+
+.overlay
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--xl);
+    width: 144px;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 4px auto;      
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    opacity: 83%;
+
+
+}
+
+/*.overlay p
+{
+
+}*/
+
+.encabezado{
+    text-align: center;
+
+}
+
+.servicios_freelancer{
+    padding-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray1);
+}
+ /* 
+*{
+   border: red 1px solid;
+}
+*/
+@media screen and (min-width: 1250px) {
+    html{
+        background-color: #000000;
+    }
+    body{
+        width: 1250px;
+        margin:auto;
+        border: #000000 1px solid;
+        background-color: white;
+    }
+    #modal{
+        width: 1250px;
+    }
+    .main .row2
+    {
+        width: 70%;
+    }
+
+}
+  
